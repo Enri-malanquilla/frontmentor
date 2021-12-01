@@ -1,16 +1,86 @@
+@import 'mobile.css';
+@import 'variables.css';
 html,
 body {
   padding: 0;
   margin: 0;
+  font-size: 18px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+  background-color: var(--primary-color);
 }
 
 * {
   box-sizing: border-box;
+}
+
+#principal {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 10px;
+}
+
+#principal h2 {
+  color: var(--primary-color-transition-initial);
+}
+
+p {
+  color: var(--primary-color-transition-initial);
+}
+
+#principal img {
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+#nav {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+
+#work aside {
+  background-color: hsl(15, 100%, 70%);
+}
+
+#study aside {
+  background-color: hsl(348, 100%, 68%);
+}
+
+#play aside {
+  background-color: hsl(195, 74%, 62%);
+}
+
+#exercise aside {
+  background-color: hsl(145, 58%, 55%);
+}
+
+#social aside {
+  background-color: hsl(264, 64%, 52%);
+}
+
+#self-care aside {
+  background-color: hsl(43, 84%, 65%);
+}
+
+/* .info {
+  background-color: hsl(235, 46%, 20%);
+} */
+
+.info aside {
+  border-radius: 10px;
+}
+
+.info article {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+}
+
+button {
+  color: var(--primary-color-transition-initial);
+  background-color: hsl(235, 46%, 20%);
+  border: none;
+}
+
+button:hover {
+  transition: 0s;
+  color: white;
 }

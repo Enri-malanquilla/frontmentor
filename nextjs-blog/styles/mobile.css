@@ -1,0 +1,7 @@
+@import 'variables.css';
+
+@media screen and (min-width: 375px) and (max-width: 600px) and (orientation: portrait) {
+  body {
+    color: white;
+  }
+}
