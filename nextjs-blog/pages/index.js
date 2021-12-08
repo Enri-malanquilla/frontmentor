@@ -47,7 +47,7 @@ export default function Home() {
             <button>Monthly</button>
           </nav>
         </header>
-        <main className={styles.main}>
+        <main>
           <section className='info' id='work'>
             <aside>
               <img src='icon-play.svg' />
