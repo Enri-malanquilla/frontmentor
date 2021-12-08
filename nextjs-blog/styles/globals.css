@@ -35,6 +35,9 @@ p {
 #nav {
   background-color: hsl(235, 46%, 20%);
   border-radius: 10px;
+  min-height: 5rem;
+  position: relative;
+  bottom: 4rem;
 }
 
 #work aside {
@@ -67,11 +70,22 @@ p {
 
 .info aside {
   border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-height: 9rem;
+  order: 0;
 }
 
 .info article {
   background-color: hsl(235, 46%, 20%);
   border-radius: 10px;
+  min-height: 6rem;
+  order: 1;
+}
+
+.info {
+  min-width: 17rem;
 }
 
 button {

@@ -1,7 +1,96 @@
 @import 'variables.css';
 
-@media screen and (min-width: 375px) and (max-width: 600px) and (orientation: portrait) {
+@media screen and (min-width: 360px) and (max-width: 640px) and (orientation: portrait) {
   body {
     color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  body header {
+    height: 11rem;
+    min-width: 17rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: -3rem;
+    margin-left: -0.5rem;
+  }
+
+  #principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 7rem;
+    padding: 1.5rem;
+
+    position: relative;
+    z-index: 1;
+  }
+
+  #principal h1 {
+    font-size: 1rem;
+  }
+
+  #principal h2 {
+    font-size: 0.75rem;
+  }
+
+  #principal img {
+    max-width: 4rem;
+  }
+
+  .info div {
+    position: relative;
+    z-index: 3;
+  }
+
+  #nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 1rem;
+    position: absolute;
+    top: -2rem;
+    z-index: 0;
+  }
+
+  .info {
+    height: 11rem;
+  }
+
+  .info aside {
+    min-width: 17rem;
+    position: relative;
+    z-index: 4;
+  }
+
+  .info article {
+    position: relative;
+    z-index: 4;
+    bottom: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2rem 2rem;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .info h1 {
+    justify-self: start;
+    font-size: 1rem;
+  }
+
+  .info button {
+    font-size: 1.5rem;
+    justify-self: end;
+    align-self: center;
+  }
+
+  .info h2 {
+    font-size: 1.5rem;
+    justify-self: start;
+  }
+
+  .info p {
+    justify-self: end;
   }
 }
