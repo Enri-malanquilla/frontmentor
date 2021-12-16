@@ -1,5 +1,6 @@
-@import 'mobile.css';
 @import 'variables.css';
+@import 'mobile.css';
+@import 'desktop.css';
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
@@ -10,6 +11,7 @@ body {
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
   background-color: var(--primary-color);
+  color: white;
 }
 
 * {
@@ -21,8 +23,12 @@ body {
   border-radius: 10px;
 }
 
-#principal h2 {
+header div h2 {
   color: var(--primary-color-transition-initial);
+}
+
+header div h1 {
+  color: white;
 }
 
 p {
@@ -87,7 +93,7 @@ p {
 }
 
 .info {
-  min-width: 17rem;
+  max-width: 17rem;
 }
 
 button {
