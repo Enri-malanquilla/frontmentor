@@ -96,13 +96,20 @@ p {
   max-width: 17rem;
 }
 
+article:hover {
+  transition: 0s;
+  background-color: black;
+}
+
 button {
   color: var(--primary-color-transition-initial);
-  background-color: hsl(235, 46%, 20%);
+  /* background-color: hsl(235, 46%, 20%); */
+  background-color: inherit;
   border: none;
 }
 
 button:hover {
+  cursor: pointer;
   transition: 0s;
   color: white;
 }
